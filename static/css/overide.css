@@ -24,3 +24,14 @@ body{
     font-size: 4em;
     color: #fff;
 }
+.navbar-nav ul li{
+  color: #fff;
+}
+
+.mt-30{
+  margin-top: 30pt;
+}
+
+.mt-45{
+  margin-top: 45pt;
+}
