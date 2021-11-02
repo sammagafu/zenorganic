@@ -1,0 +1,26 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+body{
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@font-face {
+  font-family: Narziss;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+}
+@font-face {
+  font-family: Narziss-medium;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+}
+
+.products{
+    margin-top: 45;
+    background-color: #b48484;
+    padding:85px 0;
+}
+.products h4{
+    font-family: 'Narziss-medium', Courier, monospace;
+    font-size: 4em;
+    color: #fff;
+}
