@@ -1,37 +1,50 @@
 @import url('http://fonts.cdnfonts.com/css/sofia-pro');
 
-body{
-    font-family: 'Sofia Pro', sans-serif;
+body {
+  font-family: 'Sofia Pro', sans-serif;
 }
 
-@import 'https://fonts.googleapis.com/css?family=Montserrat';
-@font-face {
-  font-family: Narziss;
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
-}
-@font-face {
-  font-family: Narziss-medium;
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+
+.products {
+  margin-top: 45;
+  padding: 85px 0;
+  height: 100vh;
 }
 
-.products{
-    margin-top: 45;
-    background-color: #b48484;
-    padding:85px 0;
+.products h4 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 4em;
+  color: #3b9247;
 }
-.products h4{
-    font-family: 'Narziss-medium', Courier, monospace;
-    font-size: 4em;
-    color: #fff;
-}
-.navbar-nav ul li{
+
+.navbar-nav ul li {
   color: #fff;
 }
 
-.mt-30{
+.mt-30 {
   margin-top: 30pt;
 }
 
-.mt-45{
+.mt-45 {
   margin-top: 45pt;
+}
+
+.intro {
+  height: 100vh;
+  background: url(../images/backgrounds/cover.jpg)no-repeat center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.intro .text {
+  padding: 40vh 15vw;
+  font-size: 5rem;
+  font-family: 'Yeseva One', cursive;
+  color: beige;
 }
